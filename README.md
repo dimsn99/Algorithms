@@ -14,6 +14,18 @@
 - Queues: It follows the FIFO principle (First In First Out), in this, the first element stored is removed first.
 - Hash Tables: This is a type of data structure that stores values which have keys related to each of them.
 - Trees: It is a data structure in which data is organized hierarchically and linked together. Some Examples are the Binary Search tree, Binary tree, Splay tree, AVL Tree, etc.
++ Degree of Trees
+    + Unary Tree: linked list
+    + Binary Tree: binary search tree
+    + m-way Tree(m>2)
++ Height Balance
+    + Unbalanced
+    + Balanced (but not perfectly): AVL tree, T-tree
+    + Perfectly Balanced: 2-3 tree
++ Dimension
+    + One Dimension: AVL tree, T-tree
+    + n-dimention(n>=2): quad tree, kd tree
+    
 - Heaps: It is a specialized tree-based data structure, also called binary heap in which data is stored.
 - Graphs: It consists of a set of nodes and edges connecting each other.
 
