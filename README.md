@@ -89,3 +89,16 @@
 8. Greedy Algorithm        
 9. Dynamic Programming Algorithm         
 10. Randomized Algorithm           
+
+### Analysis of Algorithms
+#### Asymptotic Analysis
+Asymptotic Analysis is the big idea that handles above issues in analyzing algorithms. In Asymptotic Analysis, we evaluate the performance of an algorithm in terms of input size (we don’t measure the actual running time). We calculate, how the time (or space) taken by an algorithm increases with the input size.
+- Notations: Theta / Big O / Omega
+
+#### Worst, Average and Best Cases
+- Best case : Order of growth will be constant because in the best case we are assuming that (n) is even
+- Average case : In this case we will assume that even and odd are equally likely, therefore Order of growth will be linear
+- Worst case : Order of growth will be linear because in this case we are assuming that (n) is always odd
+
+#### Analysis of Loops
+![image](https://user-images.githubusercontent.com/105867034/178682126-ee262e93-a431-4587-9a08-4a2ae0c40b15.png)
