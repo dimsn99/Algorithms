@@ -107,8 +107,7 @@ Asymptotic Analysis is the big idea that handles above issues in analyzing algor
 1. Substitution Method
 2. Recurrence Tree Method
 3. Master Method
-- T(n) = aT(n/b) + f(n) where a >= 1 and b > 1
-
-![image](https://user-images.githubusercontent.com/105867034/178762463-84b67a44-a09c-4d01-bbfb-b45c39d0fe4d.png)
-![image](https://user-images.githubusercontent.com/105867034/178763114-e74d2ad5-7b40-455d-96aa-8c63edea5f68.png)
+    - T(n) = aT(n/b) + f(n) where a >= 1 and b > 1
+    ![image](https://user-images.githubusercontent.com/105867034/178762463-84b67a44-a09c-4d01-bbfb-b45c39d0fe4d.png)
+    ![image](https://user-images.githubusercontent.com/105867034/178763114-e74d2ad5-7b40-455d-96aa-8c63edea5f68.png)
 
