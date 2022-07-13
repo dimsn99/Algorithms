@@ -13,21 +13,59 @@
 - Stacks: Follow LIFO (Last In First Out) principle. In this, the last element in the stack will be removed first.
 - Queues: It follows the FIFO principle (First In First Out), in this, the first element stored is removed first.
 - Hash Tables: This is a type of data structure that stores values which have keys related to each of them.
+    + Ultimate Objectives of Hashing
+        + Minimize Collision
+        + Minimize Overflow
+        + Minimize Hash Table Size: Keep N(indexes) and/or K(buckets) reasonably small
+    + Commonly Used Hash Functions
+        + Modulo(Division) Function
+        + Digit Folding("hashing")
+        + Digit Selection
+        + Mid-Square Function
+
 - Trees: It is a data structure in which data is organized hierarchically and linked together. Some Examples are the Binary Search tree, Binary tree, Splay tree, AVL Tree, etc.
-+ Degree of Trees
-    + Unary Tree: linked list
-    + Binary Tree: binary search tree
-    + m-way Tree(m>2)
-+ Height Balance
-    + Unbalanced
-    + Balanced (but not perfectly): AVL tree, T-tree
-    + Perfectly Balanced: 2-3 tree
-+ Dimension
-    + One Dimension: AVL tree, T-tree
-    + n-dimention(n>=2): quad tree, kd tree
+    + Differences between B-Tree and T-Tree
+        + T-Tree
+            + a main-memory data structure
+            + a binary tree
+            + height-balanced, but not perfectly
+            + rebalancing uses tree rotations
+        + B-Tree(and B+) Tree
+            + an external data structure
+            + an m-way tree
+            + perfectly height-balanced
+            + rebalancing uses node split and merge
+            * B-Tree
+                * Tree height is taller, because each node can contain fewer keys
+                * Has no support for range queries
+                * Search may end before reaching the leaf level
+            * B+ Tree
+                * Tree height is smaller, because each node can contain more keys
+                * Has support for range queries
+                * Search must continue to the leaf level
+
+    + Degree of Trees
+        + Unary Tree: linked list
+        + Binary Tree: binary search tree
+        + m-way Tree(m>2)
+    + Height Balance
+        + Unbalanced
+        + Balanced (but not perfectly): AVL tree, T-tree
+        + Perfectly Balanced: 2-3 tree
+    + Dimension
+        + One Dimension: AVL tree, T-tree
+        + n-dimention(n>=2): quad tree, kd tree
     
 - Heaps: It is a specialized tree-based data structure, also called binary heap in which data is stored.
 - Graphs: It consists of a set of nodes and edges connecting each other.
+    + Topics
+        + Graph Representaion: Adjacency Matrix/Lists
+        + Graph Traversal: DFS, BFS
+        + Spanning Tree: A Tree of N Nodes and N-1 edges, Cycles are removed from the graph
+        + Minimum Spanning Tree: A spanning tree with a minimum total weight of all the edges
+        + Minimum Spanning Tree Algorithm
+            + Prim's algorithm / Kruskal's algorithm / Dijkstra's algorithm / Warshall's algorithm
+        + Transitive Closure Algorithms
 
 ## Algorithm
 <img src=https://user-images.githubusercontent.com/105867034/178479808-21ab10ae-2842-4e71-8f65-8e64fee8a340.png width=600px height=350px></img>
