@@ -90,6 +90,9 @@
 9. Dynamic Programming Algorithm         
 10. Randomized Algorithm           
 
+* DP - Tabulation vs Memoization
+![image](https://user-images.githubusercontent.com/105867034/179345150-4a659eb6-657d-4543-97d9-13b16ffe2c58.png)
+
 ### Analysis of Algorithms
 #### Asymptotic Analysis
 Asymptotic Analysis is the big idea that handles above issues in analyzing algorithms. In Asymptotic Analysis, we evaluate the performance of an algorithm in terms of input size (we don’t measure the actual running time). We calculate, how the time (or space) taken by an algorithm increases with the input size.
