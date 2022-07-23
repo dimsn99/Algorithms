@@ -118,3 +118,12 @@ Asymptotic Analysis is the big idea that handles above issues in analyzing algor
     ![image](https://user-images.githubusercontent.com/105867034/178762463-84b67a44-a09c-4d01-bbfb-b45c39d0fe4d.png)
     ![image](https://user-images.githubusercontent.com/105867034/178763114-e74d2ad5-7b40-455d-96aa-8c63edea5f68.png)
 
+## P-NP Problem
+The P versus NP problem is a major unsolved problem in theoretical computer science. In informal terms, it asks whether every problem whose solution can be quickly verified can also be quickly solved.
+The problem has been called the most important open problem in computer science. Aside from being an important problem in computational theory, a proof either way would have profound implications for mathematics, cryptography, algorithm research, artificial intelligence, game theory, multimedia processing, philosophy, economics and many other fields.
+
+NP-complete problems are a set of problems to each of which any other NP-problem can be reduced in polynomial time and whose solution may still be verified in polynomial time.
+
+![image](https://user-images.githubusercontent.com/105867034/180583274-adb21f60-60c4-4479-b844-c97c95832417.png)
+
+
